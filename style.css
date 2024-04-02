@@ -10,16 +10,13 @@
 ul{
     list-style: none;
 }
-.container{
-    background-color: #e0e0ea;
-    height: 110vh;
-    padding: 50px;
-}
+
 .main{
-    background-color: #EEEEF6;
-    height: 85vh;
-    padding: 30px;
-    border-radius: 30px;
+background-color: #F2613F;
+height: 110vh;
+padding-left: 60px;
+padding-right: 60px;
+
 }
 nav{
     display: flex;
@@ -74,7 +71,7 @@ width: 30px;
 height: 30px;
 margin-bottom: 10px;
 border-radius: 50px;
-box-shadow: 5px 5px 16px #A5A5A5;
+box-shadow: 5px 5px 16px #9B3922;
 }
 .socials li{
 display: flex;
@@ -163,10 +160,10 @@ line-height: 30px;
     margin-right: 5px;
 }
 .collection:nth-child(1){
-    background: linear-gradient(to bottom, #FFBB5C, #C63D2F);
+    background: linear-gradient(to bottom, #A78295, #331D2C);
 }
 .collection:nth-child(2){
-    background: linear-gradient(to bottom,#FFBB5C, #C63D2F);
+    background: linear-gradient(to bottom, #864AF9, #221d59 );
 }
 .collection:nth-child(3){
     background: linear-gradient(to bottom, #FFBB5C, #C63D2F);
@@ -174,7 +171,7 @@ line-height: 30px;
 .playNext{
     width: 25%;
     padding: 50px 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     overflow-x: scroll;
 }
 
@@ -229,7 +226,7 @@ line-height: 30px;
     right: 0;
 }
 .nowPlaying {
-    background-color: #00224D;
+    background-color: #481E14;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -242,7 +239,7 @@ line-height: 30px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -120px;
+    bottom: -12px;
 }
 
 .nowPlaying ul {
@@ -281,6 +278,7 @@ line-height: 30px;
 
 .playingTitle h4 {
     font-size: 25px;
+
 }
 
 .playingTitle p {
@@ -314,8 +312,9 @@ line-height: 30px;
 }
 
 .harry p {
-    margin-left: 10px;
-    font-size: 10px;
+    margin-left: 12px;
+    font-size: 14px;
+    text-align: center;
 }
 
 .moreActions {
